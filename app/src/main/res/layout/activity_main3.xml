@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/purple_200"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Updata Data"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25sdp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tname"
+        android:text="Name : "
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="name"
+        android:textColor="@color/black"
+        android:id="@+id/up_name"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tcontact"
+        android:textColor="@color/black"
+        android:text="Contact : "
+        android:textSize="@dimen/_15sdp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/up_contact"
+        android:textColor="@color/black"
+        android:hint="Contact"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tpass"
+        android:textColor="@color/black"
+        android:text="Pass : "
+        android:textSize="@dimen/_15sdp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/up_pass"
+        android:textColor="@color/black"
+        android:hint="pass"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/up_submit"
+        android:text="Submit"
+        android:backgroundTint="#00BCD4"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
